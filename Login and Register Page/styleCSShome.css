@@ -1,0 +1,125 @@
+﻿html{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+#colorTop{
+    background-color: #333;
+    position: absolute;
+    padding-top: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#PageBody{
+    position: absolute;
+    top: 120px;
+    padding-right: 9px;
+}
+
+body {
+    background: rgb(197,197,197);
+    width: 100%;
+    height: 100%;
+}
+
+input[type=text] {
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+#Label1 {
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px black;
+}
+
+#balanceLabel {
+    font-family: Verdana;
+    font-size:35px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#balanceLabel:hover ~ #sesto{
+    display:block;
+}
+
+#balance {
+    font-family: Verdana;
+    font-size:35px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#noResults, #selectError, #invalidUser, #insufficientFunds, #insufficientFundsW{
+    font-family: Verdana;
+    color:red;
+}
+
+#dtHTML {
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px grey;
+    border-collapse: collapse;
+    border: 1px solid #c8c8c8;
+    width: 100%;
+}
+
+    #dtHTML thead {
+        background-color: #04AA6D;
+    }
+
+    #dtHTML thead,tbody {
+        display: block;
+    }
+    #dtHTML thead th {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border:transparent;
+    }
+    #dtHTML tbody td {
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+    }
+    #dtHTML tr{
+        display:table;
+        table-layout: fixed;
+        width:100%
+    }
+    #dtHTML tbody td:nth-child(2) {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #dtHTML tbody td:nth-child(3) {
+        text-align:right;
+        padding-right: 10px;
+    }
+
+    
+#sesto {
+    overflow: hidden;
+    background-color: #333;
+    height: 100px;
+}
+
+.image {
+    background: url(SestoCropped.png);
+    height: 100px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+    .image a {
+        display: none;
+    }
+
+        .image a:hover {
+            display: block;
+        }
+
+#logOutButton{
+    position: absolute;
+    top:5px;
+    right:5px;
+}

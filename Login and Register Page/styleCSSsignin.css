@@ -1,0 +1,73 @@
+﻿#colorTop {
+    background-color: #333;
+    position: fixed;
+    padding-top: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#PageBody {
+    position: fixed;
+    top: 180px;
+}
+
+body {
+    background: rgb(197,197,197);
+}
+
+#emailLabel {
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+}
+
+#passwordLabel {
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px black;
+}
+
+input[type=text] {
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+input[type=password] {
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+#invalidUser, #incorrectPassword {
+    font-family: Verdana;
+    color: red;
+}
+
+#email {
+    width: 350px;
+}
+
+#password {
+    width: 350px;
+}
+
+#Label1 {
+    font-family: Verdana;
+    text-shadow: 1px 1px 2px black;
+}
+
+#login {
+    transition-duration: 0.4s;
+    border:none;
+    border-radius: 4px;
+}
+
+#login:hover {
+    background-color: #4CAF50; /* Green */
+    border:none;
+    color: white;
+    border-radius: 4px;
+}
+
+#sesto{
+    height: 153px;
+}

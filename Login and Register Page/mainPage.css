@@ -1,0 +1,41 @@
+﻿body,html{
+    height:100%;
+}
+
+body {
+    background-color: #333;
+    background-image: url("SestoCropped.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#SignInButton{
+    position:absolute;
+    left:45%;
+    top:90%;
+    height:30px;
+    width:70px;
+    border-radius:12px;
+    border-color:transparent;
+}
+
+#SignUpButton{
+    position:absolute;
+    left:55%;
+    top:90%;
+    height:30px;
+    width:70px;
+    border-radius:12px;
+    border-color:transparent;
+}
+
+#Label1 {
+    font-family: Verdana;
+    font-size:18px;
+    color:white;
+    text-shadow: 1px 1px 2px white;
+    position:absolute;
+    left:49%;
+    top:85%;
+}
